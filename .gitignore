@@ -1,0 +1,27 @@
+# environment files and secrets
+.env
+.env.*
+!.env.example
+
+# python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# jupyter generated files
+.ipynb_checkpoints/
+
+# local model artifacts
+*.gguf
+*.safetensors
+
+# local outputs and logs
+*.log
+outputs/
+results/
+
+# operating-system files
+.DS_Store
+Thumbs.db
